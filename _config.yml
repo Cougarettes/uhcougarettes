@@ -21,7 +21,11 @@ people:
    #   url: #
    # - title: stack-overflow
    #   url: #
-
+people:
+- name: Saalihah Latiff
+  pic: 10
+  position: Super Senior Advisor
+  social:
 #- name: Jaelyn Rogers
  # pic: 2
  # position: Vice President
