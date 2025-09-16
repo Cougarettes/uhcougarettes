@@ -54,7 +54,7 @@ people:
  #     url: #
 
 - name: Afra Nawar
-  pic: temp
+  pic: afra
   position: Recruitment Chair
   social:
  #   - title: twitter
@@ -65,7 +65,7 @@ people:
  #     url: #
 
 - name: Aizah Khan
-  pic: temp
+  pic: aizah
   position: Program Manager
   social:
   #   - title: twitter
