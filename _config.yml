@@ -1,4 +1,4 @@
-url: https://y7kim.github.io #https://shanwiich.github.io #https://uhcougarettes.com/ #https://y7kim.github.io
+ url: https://y7kim.github.io #https://shanwiich.github.io #https://uhcougarettes.com/ #https://y7kim.github.io
 baseurl: #/uhcougarettes #/agency-jekyll-theme/
 
 # Site settings
@@ -133,6 +133,17 @@ people:
 - name: Thessaly Quintana
   pic: thessaly
   position: Marketing Chair
+  social:
+  #  - title: twitter
+  #    url: #
+  #  - title: facebook
+  #    url: #
+  #  - title: google-plus
+   #   url: #
+
+- name: Khadeejah Tapkirwala
+  pic: khadeejah
+  position: Coding Event Coordinator
   social:
   #  - title: twitter
   #    url: #
