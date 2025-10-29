@@ -931,43 +931,53 @@ body {
   margin: 0;
 }
 
-/* Pink arrow buttons */
-.carousel-control.left,
-.carousel-control.right {
+/* Custom pink arrow buttons */
+.carousel-control.custom-arrow {
   background-image: none !important;
-  background: rgba(255, 116, 116, 0.8);
+  background-color: rgba(255, 116, 116, 0.9);
   width: 60px;
   height: 60px;
   top: 50%;
   transform: translateY(-50%);
-  border-radius: 5px;
+  border-radius: 8px;
   opacity: 1;
   filter: none;
+  text-shadow: none;
 }
 
-.carousel-control.left {
+.carousel-control.custom-arrow.left {
   left: 20px;
 }
 
-.carousel-control.right {
+.carousel-control.custom-arrow.right {
   right: 20px;
 }
 
-.carousel-control:hover,
-.carousel-control:focus {
-  background: rgba(255, 116, 116, 1);
+.carousel-control.custom-arrow:hover,
+.carousel-control.custom-arrow:focus {
+  background-color: rgba(255, 116, 116, 1);
   opacity: 1;
 }
 
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .glyphicon-chevron-right {
-  font-size: 30px;
-  top: 50%;
-  margin-top: -15px;
-  color: #fff;
+/* CSS Arrow Icons */
+.custom-arrow-icon {
   position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+}
+
+.custom-arrow-left {
+  transform: translate(-40%, -50%) rotate(-135deg);
+}
+
+.custom-arrow-right {
+  transform: translate(-60%, -50%) rotate(45deg);
 }
 
 .carousel-indicators {
@@ -1004,15 +1014,14 @@ body {
     font-size: 0.9rem;
   }
   
-  .carousel-control.left,
-  .carousel-control.right {
-    width: 40px;
-    height: 40px;
+  .carousel-control.custom-arrow {
+    width: 45px;
+    height: 45px;
   }
   
-  .carousel-control .glyphicon-chevron-left,
-  .carousel-control .glyphicon-chevron-right {
-    font-size: 20px;
-    margin-top: -10px;
+  .custom-arrow-icon {
+    width: 12px;
+    height: 12px;
+    border-width: 2px;
   }
 }
