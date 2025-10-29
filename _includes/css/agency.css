@@ -962,3 +962,28 @@ body {
   left: 15%;
   right: 15%;
 }
+
+/* Pink styled carousel arrows */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: none;
+  background-color: #ff7474;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-size: 30px 30px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #ff5a5a;
+}
