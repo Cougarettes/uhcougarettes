@@ -878,55 +878,93 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-/* === CUSTOM CAROUSEL STYLING === */
+/* === CUSTOM CAROUSEL STYLING FOR BOOTSTRAP 3 === */
 
 #gallery {
   background-color: #fff;
+  padding: 100px 0;
 }
 
 #gallery h2 {
   color: #333;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .carousel-inner img {
   width: 100%;
-  height: 600px; /* Keeps all carousel images the same height */
-  object-fit: cover; /* Prevents distortion and crops gracefully */
+  height: 600px;
+  object-fit: cover;
   border-radius: 10px;
 }
 
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 8px;
-  padding: 1rem 1.5rem;
+  padding: 20px;
+  left: 10%;
+  right: 10%;
+  bottom: 40px;
 }
 
-.carousel-caption h5 {
-  font-size: 1.5rem;
+.carousel-caption h3 {
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
+  color: #fff;
+  margin: 0 0 10px 0;
 }
 
 .carousel-caption p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #f8f8f8;
+  margin: 0;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(1); /* Makes arrows visible on light backgrounds */
-  width: 50px;
-  height: 50px;
+/* Pink arrow buttons */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+  background: rgba(255, 116, 116, 0.8);
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+}
+
+.carousel-control.left {
+  left: 20px;
+}
+
+.carousel-control.right {
+  right: 20px;
+}
+
+.carousel-control:hover {
+  background: rgba(255, 116, 116, 1);
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  font-size: 30px;
+  top: 50%;
+  margin-top: -15px;
+  color: #fff;
+}
+
+.carousel-indicators {
+  bottom: 20px;
 }
 
 .carousel-indicators li {
   background-color: #bbb;
+  border: none;
 }
 
 .carousel-indicators .active {
-  background-color: #ff7474; /* Matches your site’s theme color */
+  background-color: #ff7474;
 }
 
 @media (max-width: 768px) {
@@ -936,54 +974,16 @@ body {
 
   .carousel-caption {
     font-size: 0.9rem;
-    padding: 0.5rem 1rem;
+    padding: 10px;
+    left: 5%;
+    right: 5%;
   }
-}
-
-/* Fix carousel items stacking - add this after the existing carousel styles */
-.carousel-inner {
-  position: relative;
-}
-
-.carousel-item {
-  display: none;
-  position: relative;
-  width: 100%;
-  transition: transform 0.6s ease-in-out;
-}
-
-.carousel-item.active {
-  display: block;
-}
-
-/* Improve caption visibility */
-.carousel-caption {
-  bottom: 40px !important;
-  left: 15%;
-  right: 15%;
-}
-
-/* Pink styled carousel arrows */
-.carousel-control-prev,
-.carousel-control-next {
-  width: 60px;
-  height: 60px;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 1;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: none;
-  background-color: #ff7474;
-  width: 60px;
-  height: 60px;
-  border-radius: 5px;
-  background-size: 30px 30px;
-}
-
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-  background-color: #ff5a5a;
+  
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
 }
