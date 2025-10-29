@@ -892,13 +892,30 @@ body {
   margin-bottom: 50px;
 }
 
+/* Fix carousel container */
+#officerEventCarousel {
+  position: relative;
+  height: 600px;
+}
+
 .carousel-inner {
   position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
 }
 
 .carousel-inner .item {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 600px;
+  display: none;
+}
+
+.carousel-inner .item.active {
+  display: block;
 }
 
 .carousel-inner img {
@@ -931,53 +948,56 @@ body {
   margin: 0;
 }
 
-/* Custom pink arrow buttons */
-.carousel-control.custom-arrow {
+/* Pink arrow buttons with SVG-style arrows */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   background-image: none !important;
   background-color: rgba(255, 116, 116, 0.9);
   width: 60px;
   height: 60px;
-  top: 50%;
-  transform: translateY(-50%);
   border-radius: 8px;
-  opacity: 1;
-  filter: none;
-  text-shadow: none;
+  opacity: 1 !important;
+  filter: none !important;
+  text-shadow: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.carousel-control.custom-arrow.left {
+.carousel-control.left {
   left: 20px;
 }
 
-.carousel-control.custom-arrow.right {
+.carousel-control.right {
   right: 20px;
 }
 
-.carousel-control.custom-arrow:hover,
-.carousel-control.custom-arrow:focus {
+.carousel-control:hover,
+.carousel-control:focus {
   background-color: rgba(255, 116, 116, 1);
-  opacity: 1;
+  opacity: 1 !important;
 }
 
-/* CSS Arrow Icons */
-.custom-arrow-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  border-top: 3px solid #fff;
-  border-right: 3px solid #fff;
+/* Create arrow using borders */
+.arrow-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-left: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  position: relative;
 }
 
-.custom-arrow-left {
-  transform: translate(-40%, -50%) rotate(-135deg);
+.arrow-left {
+  transform: rotate(45deg);
+  margin-left: 5px;
 }
 
-.custom-arrow-right {
-  transform: translate(-60%, -50%) rotate(45deg);
+.arrow-right {
+  transform: rotate(-135deg);
+  margin-right: 5px;
 }
 
 .carousel-indicators {
@@ -995,6 +1015,18 @@ body {
 }
 
 @media (max-width: 768px) {
+  #officerEventCarousel {
+    height: 400px;
+  }
+  
+  .carousel-inner {
+    height: 400px;
+  }
+  
+  .carousel-inner .item {
+    height: 400px;
+  }
+  
   .carousel-inner img {
     height: 400px;
   }
@@ -1014,14 +1046,14 @@ body {
     font-size: 0.9rem;
   }
   
-  .carousel-control.custom-arrow {
+  .carousel-control {
     width: 45px;
     height: 45px;
   }
   
-  .custom-arrow-icon {
-    width: 12px;
-    height: 12px;
-    border-width: 2px;
+  .arrow-icon {
+    width: 15px;
+    height: 15px;
+    border-width: 3px;
   }
 }
