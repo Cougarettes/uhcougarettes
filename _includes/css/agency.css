@@ -886,10 +886,19 @@ body {
 }
 
 #gallery h2 {
-  color: #333;
+  color: #ff7474;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 50px;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-inner .item {
+  position: relative;
+  width: 100%;
 }
 
 .carousel-inner img {
@@ -925,13 +934,15 @@ body {
 /* Pink arrow buttons */
 .carousel-control.left,
 .carousel-control.right {
-  background-image: none;
+  background-image: none !important;
   background: rgba(255, 116, 116, 0.8);
   width: 60px;
   height: 60px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 5px;
+  opacity: 1;
+  filter: none;
 }
 
 .carousel-control.left {
@@ -942,8 +953,10 @@ body {
   right: 20px;
 }
 
-.carousel-control:hover {
+.carousel-control:hover,
+.carousel-control:focus {
   background: rgba(255, 116, 116, 1);
+  opacity: 1;
 }
 
 .carousel-control .glyphicon-chevron-left,
@@ -952,6 +965,9 @@ body {
   top: 50%;
   margin-top: -15px;
   color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .carousel-indicators {
@@ -960,11 +976,12 @@ body {
 
 .carousel-indicators li {
   background-color: #bbb;
-  border: none;
+  border: 1px solid #bbb;
 }
 
 .carousel-indicators .active {
   background-color: #ff7474;
+  border-color: #ff7474;
 }
 
 @media (max-width: 768px) {
@@ -985,5 +1002,17 @@ body {
   
   .carousel-caption p {
     font-size: 0.9rem;
+  }
+  
+  .carousel-control.left,
+  .carousel-control.right {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right {
+    font-size: 20px;
+    margin-top: -10px;
   }
 }
