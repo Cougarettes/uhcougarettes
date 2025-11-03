@@ -1,15 +1,16 @@
 ---
-title: TBA
-subtitle: TBA
 layout: default
+title: "Sign up for our newsletter"
+subtitle: "Stay connected with us!"
 modal-id: 6
 date: 2014-07-16
 img: golden.png
 thumbnail: staytuned.jpg
-alt: image-alt
-project-date: TBA
-location: TBA
-category: Web Development
-description: TBA
-
+alt: "Newsletter Signup"
+project-date: "Ongoing"
+location: "Online"
+category: "Community"
+description: "Join our mailing list to get the latest updates, event news, and team highlights!"
+websitename: "Sign up here"
+website: "https://forms.gle/YOUR_GOOGLE_FORM_LINK"
 ---
