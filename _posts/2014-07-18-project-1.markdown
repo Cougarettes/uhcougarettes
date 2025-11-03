@@ -12,5 +12,5 @@ location: "Online"
 category: "Community"
 description: "Join our mailing list to get the latest updates, event news, and team highlights!"
 websitename: "Sign up here"
-website: "https://forms.gle/YOUR_GOOGLE_FORM_LINK"
+website: "[https://forms.gle/YOUR_GOOGLE_FORM_LINK](https://docs.google.com/forms/d/e/1FAIpQLSeFO5PHWyuiDCKx7-P8tjiQrxapWlmV1IqMyGBcObN9tE_gfQ/viewform?usp=sharing&ouid=117882049608070417573)"
 ---
