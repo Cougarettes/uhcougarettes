@@ -13,8 +13,8 @@ people:
   pic: anna
   position: President
   social:
-   #   - title: linkedin
-   #    url: https://www.linkedin.com/in/sara-umer-353172213
+    - title: linkedin
+      url: https://www.linkedin.com/in/annauyentrang/
   #  - title: facebook
    #   url: #
    # - title: stack-overflow
@@ -24,8 +24,8 @@ people:
   pic: zoubida
   position: Vice President
   social:
- #   - title: twitter
- #     url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/zoubida-r-539872230/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -35,8 +35,8 @@ people:
   pic: dino
   position: Treasurer
   social:
- #   - title: twitter
- #     url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/dino-r-3a353831b/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -46,8 +46,8 @@ people:
   pic: keertana
   position: Secretary
   social:
- #   - title: twitter
- #     url: #
+    - title: linkedin
+      url: https://linkedin.com/in/keertana-putam-9294812b1
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -57,8 +57,8 @@ people:
   pic: afra1
   position: Recruitment Chair
   social:
- #   - title: twitter
- #     url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/afra-nawar278/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -68,8 +68,8 @@ people:
   pic: aizah
   position: Program Manager
   social:
-  #   - title: twitter
-  #     url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/aizahkhan/
   #   - title: facebook
   #     url: #
   #   - title: stack-overflow
@@ -79,8 +79,8 @@ people:
   pic: tuyet
   position: Event Coordinator
   social:
- #   - title: twitter
- #     url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/tuyetthiennguyen/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -90,8 +90,8 @@ people:
   pic: stephanie
   position: Outreach Chair
   social:
-  #   - title: twitter
-  #     url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/stephanie-anongdeth/
   #   - title: facebook
   #     url: #
   #   - title: stack-overflow
@@ -101,8 +101,8 @@ people:
   pic: ashley
   position: Webmaster
   social:
- #   - title: twitter
- #     url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/ashleynguyencs/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -112,8 +112,8 @@ people:
   pic: charity
   position: Technical lead
   social:
-  #  - title: twitter
-  #    url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/charity-smith-748b24232/
   #  - title: facebook
   #    url: #
   #  - title: google-plus
@@ -123,8 +123,8 @@ people:
   pic: sakinah
   position: Digital Marketing
   social:
- #   - title: twitter
- #     url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/sakinahnaviwala/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -134,8 +134,8 @@ people:
   pic: thessaly
   position: Marketing Chair
   social:
-  #  - title: twitter
-  #    url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/thessalyq/
   #  - title: facebook
   #    url: #
   #  - title: google-plus
@@ -145,8 +145,8 @@ people:
   pic: khadeeja
   position: Coding Event Coordinator
   social:
-  #  - title: twitter
-  #    url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/khadeeja-tapkirwala-a40878278/
   #  - title: facebook
   #    url: #
   #  - title: google-plus
