@@ -1078,12 +1078,7 @@ body {
       list-style: none; 
     }
 }
-        /* Adjust spacing for specific sections */
-    #gallery {
-        padding-top: 40px !important;
-        padding-bottom: 20px !important;
-    }
-    
+        /* Adjust spacing for specific sections (0verriding the other one)*/
     #insta {
         padding-top: 20px !important;
         padding-bottom: 20px !important;
