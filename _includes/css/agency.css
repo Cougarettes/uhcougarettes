@@ -1077,4 +1077,21 @@ body {
       gap:50px;/*adjust as needed*/
       list-style: none; 
     }
+
+        /* Adjust spacing for specific sections */
+    #insta {
+        padding-top: 20px !important;
+        padding-bottom: 40px !important;
+    }
+    
+    #about {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    
+    #team {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
 }
