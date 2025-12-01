@@ -1056,4 +1056,25 @@ body {
     height: 15px;
     border-width: 3px;
   }
+    .contact-information{
+      background-color: white;
+      color:#ff7474
+      
+    }
+    
+    .fa{
+      font-size:24px;
+      color:#c64242;
+    }
+    
+    .fab{
+      font-size:24px;
+      color:#c64242;
+    }
+    
+    .contacts{
+      display:flex;
+      gap:50px;/*adjust as needed*/
+      list-style: none; 
+    }
 }
