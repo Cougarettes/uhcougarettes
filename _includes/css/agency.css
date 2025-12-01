@@ -1080,8 +1080,8 @@ body {
 
         /* Adjust spacing for specific sections */
     #insta {
-        padding-top: 20px !important;
-        padding-bottom: 40px !important;
+        padding-top: 10px !important;
+        padding-bottom: 30px !important;
     }
     
     #about {
