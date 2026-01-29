@@ -53,12 +53,12 @@ people:
  #   - title: stack-overflow
  #     url: #
 
-- name: Sara
+- name: Sara Montes
   pic: sara
   position: Recruitment Chair
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/afra-nawar278/
+      url: https://www.linkedin.com/in/sara-montes-cs77
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -86,12 +86,12 @@ people:
   #   - title: stack-overflow
   #     url: #
 
-- name: temp
-  pic: temp
-  position: Events Coordinator
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/tuyetthiennguyen/
+#- name: temp
+#  pic: temp
+#  position: Events Coordinator
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/tuyetthiennguyen/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -119,34 +119,34 @@ people:
  #   - title: stack-overflow
  #     url: #
 
-- name: Temp
-  pic: temp
-  position: Technical lead
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/charity-smith-748b24232/
+#- name: temp
+#  pic: temp
+#  position: Technical lead
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/charity-smith-748b24232/
   #  - title: facebook
   #    url: #
   #  - title: google-plus
    #   url: #
 
-- name: Isabel
+- name: Isabel Lara
   pic: isabel
   position: Digital Marketer
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/sakinahnaviwala/
+      url: https://www.linkedin.com/in/bellalara/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
  #     url: #
 
-- name: Arpitha
+- name: Arpitha Ashokan
   pic: arpitha
   position: Marketing Chair
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/thessalyq/
+      url: https://www.linkedin.com/in/arpithaashokan2025/
   #  - title: facebook
   #    url: #
   #  - title: google-plus
