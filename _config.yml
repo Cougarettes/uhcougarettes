@@ -9,34 +9,34 @@ description: "Welcome to UH Cougarettes! Our organization strives to build a sen
 # Team names, titles and social links
 people:
 
-- name: Anna Vu
-  pic: anna
+- name: Andrea Davila Figueroa
+  pic: andrea
   position: President
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/annauyentrang/
+      url: https://www.linkedin.com/in/andrea-davila-figueroa/
   #  - title: facebook
    #   url: #
    # - title: stack-overflow
    #   url: #
 
-- name: Zoubida Houda Rezki
-  pic: zoubida
+- name: Khadeeja Tapkirwala
+  pic: khadeeja
   position: Vice President
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/zoubida-r-539872230/
+      url: https://www.linkedin.com/in/khadeeja-tapkirwala-a40878278/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
  #     url: #
 
-- name: Dino Rodriguez
-  pic: dino
+- name: Farzana Hajee
+  pic: farzana
   position: Treasurer
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/dino-r-3a353831b/
+      url: https://www.linkedin.com/in/farzanahajee/
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
@@ -53,8 +53,8 @@ people:
  #   - title: stack-overflow
  #     url: #
 
-- name: Afra Nawar
-  pic: afra1
+- name: Sara
+  pic: sara
   position: Recruitment Chair
   social:
     - title: linkedin
@@ -64,20 +64,31 @@ people:
  #   - title: stack-overflow
  #     url: #
 
-- name: Aizah Khan
-  pic: aizah
-  position: Program Manager
+- name: Nawal Kashif
+  pic: nawal
+  position: TR Program Manager
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/aizahkhan/
+      url: https://www.linkedin.com/in/nawal-kashif-90149737b/
   #   - title: facebook
   #     url: #
   #   - title: stack-overflow
   #     url: #
 
-- name: Tuyet Nguyen
-  pic: tuyet
-  position: Event Coordinator
+- name: Safa Ansari
+  pic: safa
+  position: TR Program Manager
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/safa-a-868620374/
+  #   - title: facebook
+  #     url: #
+  #   - title: stack-overflow
+  #     url: #
+
+- name: temp
+  pic: temp
+  position: Events Coordinator
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/tuyetthiennguyen/
@@ -119,9 +130,9 @@ people:
   #  - title: google-plus
    #   url: #
 
-- name: Sakinah Naviwala
-  pic: sakinah
-  position: Digital Marketing
+- name: Isabel
+  pic: isabel
+  position: Digital Marketer
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/sakinahnaviwala/
@@ -130,8 +141,8 @@ people:
  #   - title: stack-overflow
  #     url: #
 
-- name: Thessaly Quintana
-  pic: thessaly
+- name: Arpitha
+  pic: arpitha
   position: Marketing Chair
   social:
     - title: linkedin
@@ -141,8 +152,8 @@ people:
   #  - title: google-plus
    #   url: #
 
-- name: Khadeeja Tapkirwala
-  pic: khadeeja
+- name: Elle
+  pic: elle
   position: Coding Event Coordinator
   social:
     - title: linkedin
