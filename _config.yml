@@ -119,8 +119,8 @@ people:
  #   - title: stack-overflow
  #     url: #
 
-- name: Charity Smith
-  pic: charity
+- name: Temp
+  pic: temp
   position: Technical lead
   social:
     - title: linkedin
