@@ -167,10 +167,13 @@ people:
 social:
   - title: instagram
     url: https://www.instagram.com/uhcougarettes/?igshid=qge4kwdiiptk
+    icon: fab
   - title: discord
     url: https://discord.com/invite/cFRjD3B
+    icon: fab
   - title: comments
     url: https://groupme.com/join_group/60979871/R7xE8exb
+    icon: fas
   # - title: discord
   #   url: https://discord.gg/W92MukBS
  # - title: bitbucket 
