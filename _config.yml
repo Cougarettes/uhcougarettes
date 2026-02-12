@@ -86,12 +86,12 @@ people:
   #   - title: stack-overflow
   #     url: #
 
-#- name: temp
-#  pic: temp
-#  position: Events Coordinator
-#  social:
-#    - title: linkedin
-#      url: https://www.linkedin.com/in/tuyetthiennguyen/
+- name: Aliza Salman
+  pic: aliza
+  position: Events Coordinator
+  social:
+    - title: linkedin
+      url: http://linkedin.com/in/aliza-salman-538573269
  #   - title: facebook
  #     url: #
  #   - title: stack-overflow
